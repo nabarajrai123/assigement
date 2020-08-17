@@ -1,0 +1,74 @@
+
+$(document).ready( function() {
+	// hide the collaborators when load the page
+	$( "#diagram-collab-users-div" ).hide (  );
+	$( "#diagram-collab-users-list-div" ).hide (  );
+	
+	// function to hide the collaborators
+	$( '#diagram-collab-users-div' ).click( function ( ){	
+		$( "#diagram-collab-users-div" ).hide (  );
+		$( "#diagram-collab-users-collapse-div" ).show (  );
+		$( "#diagram-collab-users-list-div" ).hide ( 'slow' );			
+    });
+	
+	// function to display collaborators
+	$( '#diagram-collab-users-collapse-div' ).click( function ( ){	
+		$( "#diagram-collab-users-div" ).show (  );
+		$( "#diagram-collab-users-collapse-div" ).hide (  );
+		$( "#diagram-collab-users-list-div" ).show ('slow');			
+    });
+	
+	// hide the note section when load the page
+	$( "#diagram-notes-wrapper-div" ).hide (  );
+	$( "#diagram-notes-content-div" ).hide (  );
+	
+	// function to hide the notes section
+	$( '#diagram-notes-wrapper-div' ).click( function ( ){	
+		$( "#diagram-notes-wrapper-div" ).hide (  );
+		$( "#diagram-notes-wrapper-collapse-div" ).show (  );
+		$( "#diagram-notes-content-div" ).hide ( 'slow' );			
+    });
+	
+	// function to display the notes sections
+	$( '#diagram-notes-wrapper-collapse-div' ).click( function ( ){	
+		$( "#diagram-notes-wrapper-collapse-div" ).hide (  );
+		$( "#diagram-notes-wrapper-div" ).show (  );
+		$( "#diagram-notes-content-div" ).show ( 'slow' );			
+    });
+	
+	// hide the embed code section when load the page
+	$( "#diagram-embed-wrapper-div" ).hide (  );
+	$( "#diagram-embed-content-div" ).hide (  );
+	
+	// function to hide the embed code section
+	$( '#diagram-embed-wrapper-div' ).click( function ( ){	
+		$( "#diagram-embed-wrapper-div" ).hide (  );
+		$( "#diagram-embed-wrapper-collapse-div" ).show (  );
+		$( "#diagram-embed-content-div" ).hide ( 'slow' );			
+    });
+	
+	// function to display the diagram embed code sections
+	$( '#diagram-embed-wrapper-collapse-div' ).click( function ( ){	
+		$( "#diagram-embed-wrapper-collapse-div" ).hide (  );
+		$( "#diagram-embed-wrapper-div" ).show (  );
+		$( "#diagram-embed-content-div" ).show ( 'slow' );			
+    });
+	
+	// hide the diagram description section when load the page
+	$( "#diagram-description-wrapper-div" ).hide (  );
+	$( "#diagram-description-content-div" ).hide (  );
+	
+	// function to hide the description section
+	$( '#diagram-description-wrapper-div' ).click( function ( ){	
+		$( "#diagram-description-wrapper-div" ).hide (  );
+		$( "#diagram-description-wrapper-collapse-div" ).show (  );
+		$( "#diagram-description-content-div" ).hide ( 'slow' );			
+    });
+	
+	// function to display the diagram embed code sections
+	$( '#diagram-description-wrapper-collapse-div' ).click( function ( ){	
+		$( "#diagram-description-wrapper-collapse-div" ).hide (  );
+		$( "#diagram-description-wrapper-div" ).show (  );
+		$( "#diagram-description-content-div" ).show ( 'slow' );			
+    });
+});

@@ -1,0 +1,358 @@
+html { height:100%; }
+body {
+	height:100%;
+	background:none repeat scroll 0 0 #fff;
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('font/lato-fontkit/lato-regular-webfont.eot');
+    src: url('font/lato-fontkit/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/lato-fontkit/lato-regular-webfont.woff2') format('woff2'),
+         url('font/lato-fontkit/lato-regular-webfont.woff') format('woff'),
+         url('font/lato-fontkit/lato-regular-webfont.ttf') format('truetype'),
+         url('font/lato-fontkit/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.content-div-background-white {
+	background:none repeat scroll 0 0 #f9f7f4;
+	height:100%;
+}
+
+#diagram-image-div {
+ float: left;
+ margin-left: 0px;
+ width:75%;
+ height: 92%;
+}
+
+#diagram-error-div {
+ 	position: relative;
+    width: 75%;
+}
+
+.diagram-right-detail { 
+	background-color:#f9f7f4;
+	border-left: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+	width: 24%;
+	float: left;
+	padding-right: 10px;
+	height: 92%;
+}
+
+#diagram-detail-div {
+	float: left;
+    width: 94%;
+    word-wrap: break-word;
+    padding-left: 3%;
+   padding-right: 3%;
+}
+
+#diagram-description-div h3 { font-size: 10pt; margin-top: 0px; margin-bottom: 0px; }
+
+h1.first {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: white;
+	padding: 20px 20px;
+	font-size:310%;
+	margin:0 0 4px;
+	line-height:130%;
+}   
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:200%;
+	margin:0 0 4px;
+	line-height:130%;
+}
+
+#diagram-tag-div { 
+	margin-top:20px;
+}
+
+#diagram-tag-div h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #494949;
+	font-size:14px;
+}
+
+#diagram-createdby-div {
+	
+	
+}
+
+#diagram-lastupdated-div {
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+.go-back-link {
+	float: left;
+	text-align: left;
+	display: inline;
+	vertical-align: bottom;
+}
+
+.go-back-link a {
+	display: inline;
+	text-align: left;
+}
+
+
+.plans-button {
+	padding-left: 15px;
+	padding-top: 12px;
+}
+.cta-buttons {
+	float: left;
+}
+.cta-buttons img {
+	float: left;
+}
+
+.diagram-title {
+	float: left;
+	display: inline;
+	vertical-align: bottom;
+	width:100%;
+	height: 49px;
+	background-color: #efebe3;
+}
+
+.right-buttons {
+	float: right;
+	display: inline;
+	margin-right:5px;
+}
+
+.add-this-buttons {
+	clear:right;
+	float: right;
+	margin-right: 20px;
+	display: inline;
+}
+
+.diagram-name-div {
+	float: left;
+	display: inline;
+	color: #3673b6;
+	margin: 0 0 0 60px;
+}
+
+.creately-desc a {
+	font-weight: normal;
+}
+
+.diagram-embed {
+	padding-bottom: 20px;
+}
+
+.diagram-embed p {
+	margin: 0;
+}
+
+.diagram-embed textarea {
+	height: 100px;
+	border: 1px solid #CCCCCC;
+	font-size:12px;
+	color: #666666;
+	width:100%;
+	resize: vertical;
+}
+
+.diag-edit-link-div {
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.creately-desc {
+	float: left;
+    width: 90%;
+    word-wrap: break-word;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#diagram-detail-div .creately-desc {
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	width:auto;
+}
+
+.creately-desc h3 {
+	margin-top:0;
+}
+
+#diagram-collab-users-collapse-div {
+ cursor: pointer;
+}
+
+#diagram-collab-users-div {
+ cursor: pointer;
+}
+
+#diagram-notes-wrapper-div {
+ cursor: pointer;
+}
+
+#diagram-notes-wrapper-collapse-div {
+ cursor: pointer;
+}
+
+#diagram-embed-wrapper-div {
+ cursor: pointer;
+}
+
+#diagram-embed-wrapper-collapse-div {
+ cursor: pointer;
+}
+
+#diagram-description-wrapper-div {
+ cursor: pointer;
+}
+
+#diagram-description-wrapper-collapse-div {
+ cursor: pointer;
+}
+
+.messages.error, tr.error {
+background-color:#fff6f6;
+border:1px solid #f5aeae;
+color:#4b4b4b;
+left: 32%;
+top: 23px;
+position: absolute;
+text-align:center;
+margin: 0;
+padding: 9px 25px;
+}
+
+/*#diagram-last-modified-by-div ,#diagram-createdby-div, #diagram-tag-title-div{
+color:#494949;
+font-family:Arial,Helvetica,sans-serif;
+font-size:14px;
+font-weight:bold;
+margin-top:20px;
+}
+
+#diagram-collab-users-title-div ,#diagram-description-title-div, #diagram-notes-title-div, #diagram-embed-title-div{
+color:#494949;
+font-family:Arial,Helvetica,sans-serif;
+font-size:14px;
+font-weight:bold;
+margin-top:20px;
+display:inline;
+width:100%;
+}*/
+
+#diagram-notes-content-div{
+word-wrap: break-word; 
+}
+
+#diagram-tag-content-div {
+display:inline;
+}
+
+.line{ border:1px solid #ccc;}
+
+#creately-login-new,
+.user-settings-wrap {
+	display: none;
+}
+
+.neutron {
+	font-family: 'latoregular';
+}
+
+a.button-blue {
+	background-color:#3673b6;
+	color:#fff;
+	font-size:13px;
+	height:30px;
+	line-height:30px;
+	padding: 0 10px;
+	margin: 10px 0 0 0;
+	display: inline-block;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+a.button-blue:hover {
+	background-color:#205e91;
+	text-decoration: none;
+}
+
+.detail-section {
+	margin-bottom:30px;
+	float:left;
+	width:100%;
+	display: table-row;
+}
+
+.detail-section .heading {
+	color:#7e7e7e;
+	font-size:13px;
+	margin-bottom:5px;
+}
+
+.detail-section .detail {
+	color:#4b4b4b;
+	font-size:15px;
+	line-height:18px;
+}
+
+.detail-section .collapsible-heading {
+	color:#4b4b4b;
+	font-size:15px;
+	border-bottom: 1px solid #e1dcd1;
+	padding-bottom: 5px;
+	margin-bottom:5px;
+}
+
+.detail-section .collap-details {
+	font-size:13px;
+	color:#4b4b4b;
+}
+
+.detail-section .col-icon {
+	float:right;
+}
+
+.detail-section .section-icon {
+	float:left;
+	padding-right:10px;
+	display: table-cell;
+    width: 20px;
+}
+
+.creately-logo {
+	float:left;
+	width: 50px;
+	height: 50px;
+	background-color: #304269;
+	position: absolute;
+	left: 0;
+}
+
+.diagram-name-div h1 {
+	display: inline-block;
+	line-height: 50px;
+	margin: 0;
+}
+
+.detail-section .section-text {
+	float:left;
+	display: table-cell;
+	width:90%; /** Older browsers **/
+	width: -webkit-calc(100% - 30px); /** Safari 6, Chrome 19-25 **/
+	width: -moz-calc(100% - 30px); /** FF 4-15  **/
+	width: calc(100% - 30px); /** FF 16+, IE 9+, Opera 15, Chrome 26+, Safari 7 and future other browsers **/
+}
+
+#diagram-tag-title-div {
+	margin-bottom:40px;
+}
